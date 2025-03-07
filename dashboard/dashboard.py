@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # Load data hasil cleaning
 @st.cache_data  # Cache agar tidak membaca ulang setiap kali dijalankan
 def load_data():
-    df = pd.read_csv("main_data.csv")
+    df = pd.read_csv("dashboard/main_data.csv")
     return df
 
 df = load_data()
